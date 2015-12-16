@@ -1,11 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>gulp</title>
-	<style type="text/css" ref=""></style>
+<title>joker's website</title>
+<meta name="viewport" content="width=device-width initial-scale=1.0"/>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../src/css/normalize.css" />
+<link rel="stylesheet" href="../src/css/common.css" />
 </head>
-<body>
-	<p><h1>建设中。。</h1></p>
+<body onload="loaded();">
+<div class="load">
+	<ul class="clearfix">
+		<li>正</li>
+		<li>在</li>
+		<li>加</li>
+		<li>载</li>
+		<li>。。。</li>
+	</ul>
+</div>
+<!-- 头部 -->
+<div class="bg">
+<div>
+<script src="../src/js/js-web/jquery/jquery-1.11.3.min.js"></script>
+<script src="../src/js/js-web/htmlPlugin/html5Tag.plug.js"></script>
+<script>
+	$('.bg').css({'height':$(window).height()});
+</script>
+<div clas="contaner none">
+	<header class="header">
+		<div class="container">
+			<button id="nav-btn">
+				按钮
+			</button>
+			<nav class="nav">
+				<li><a href="index.html">主页</a></li>
+				<li><a href="effects.html">效果展示</a></li>
+				<li><a href="record.html">学习记录</a></li>
+				<li><a href="photos.html">相册效果</a></li> 
+				<li><a href="blog.html">博客</a></li>
+				<li><a href="https://github.com/jokerCode/jokercode.github.io">网站源码(Github)</a></li>
+			</nav>
+		</div>
+	</header>
+	<div class="slider">
+		
+	</div>
+	<div class="content">
+		
+	</div>
+</div>
+<script type="text/javascript">
+function loaded(){
+	$('.load').hide();
+	$('.none').show();
+}
+</script>
 </body>
 </html>
