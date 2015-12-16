@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>gulp</title>
+<meta charset="UTF-8">
+<title>gulp</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	background: url('src/img/banner3.jpg') no-repeat center center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.load{
+	width:100%;
+	height:768px;
+	background:gray;
+	font-size:18px;
+}
+.clearfix:after{
+  content: "020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+  }
+.load ul{
+	list-style: none;
+	display: block;
+	width:200px;
+	height:200px;
+	margin:300px auto;
+}
+.load ul li{
+	float:left;
+}
+</style>
 </head>
 <body>
-	<div></div>
-	<p><h1 style="text-align:center;">建设中。。。。。。</h1></p>
+<div class="load">
+	<ul class="clearfix">
+		<li>正</li>
+		<li>在</li>
+		<li>加</li>
+		<li>载</li>
+		<li>。。。。。</li>
+	</ul>
+</div>
+<div class="bg">
+	
+</div>
+<script type="text/javascript" src="src/js/js-web/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.bg').css({'height':$(window).height()});
+	});
+</script>
 </body>
 </html>

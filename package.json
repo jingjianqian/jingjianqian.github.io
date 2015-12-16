@@ -1,0 +1,40 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "description": "myweb",
+  "main": "0.0",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-livereload": "~3.8.1",
+    "gulp-webserver": "~0.9.1",
+    "gulp-clean": "~0.3.1",
+    "gulp-ruby-sass": "~2.0.6",
+    "gulp-uglify": "~1.5.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-minify-css": "~1.2.2",
+    "gulp-jshint": "~2.0.0",
+    "tiny-lr": "~0.2.1",
+    "gulp-util": "~3.0.7",
+    "gulp-rename": "~1.2.2",
+    "gulp-imagemin": "~2.4.0",
+    "jshint": "~2.9.1-rc1",
+    "gulp-watch": "~4.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jingjianqian/jingjianqian.github.io.git"
+  },
+  "keywords": [
+    "jingjianqian"
+  ],
+  "author": "jingjianqian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jingjianqian/jingjianqian.github.io/issues"
+  },
+  "homepage": "https://github.com/jingjianqian/jingjianqian.github.io"
+}

@@ -1,0 +1,62 @@
+/**
+	header commons
+*/
+
+body{
+	font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.bg{
+	background: url('../img/bg3.jpg') no-repeat 60% 90%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: fixed;
+	width:100%;
+	top:0;
+	left:0;
+}
+.fl{
+	float:left;
+}
+#nav-btn{
+	display: none;
+}
+.none{
+	display: none;
+}
+.header{
+	padding:15px 100px 10px 80px;
+	background:rgba(255,255,255,.20);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19ffffff,endColorstr=#19ffffff);
+	color:white;
+
+}
+.container{
+	width: 100%;
+}
+/**
+ * header
+ */
+.header .nav li{
+	display: inline-block;
+}
+.header .nav li a{
+	color:white;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left:10px;
+}
+.header .nav li a:active,.header .nav li a:visited{
+	color:white;
+}
+.header .nav li a:hover{
+	color: #03B6BC;
+}
+/**
+ * loading
+ */
+.load ul{
+	font-size:24px;
+}
+.load ul li{
+	float:left;
+}
